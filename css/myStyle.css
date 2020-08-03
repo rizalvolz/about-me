@@ -180,4 +180,54 @@ html, body{
     font-weight: bold;
     font-size: 16px;
 }
+
+
+@media screen and (max-width: 600px) {
+
+    .page-1-box-1{
+        display: flex;
+        text-align: center;
+        width: auto;
+    }
+
+    .subjudul-1 {
+        font-size: 20px;
+    }
+
+    .page-1-box-2 {
+        display: flex;
+        text-align: center;
+        width: auto;
+    }
+
+    .subjudul {
+        font-size: 20px;
+    }
+
+    .grid-container {
+        display: grid;
+        width: auto;
+        justify-content: center;
+      }
+    
+    .story-data{
+        text-align: center;
+        margin: auto 10px;
+        font-size: 1px;
+        overflow-x: auto;
+    }
+    
+    .story-photo{
+        text-align: center;
+        font-size: 18px;
+    }
+    
+    .story-photo img{
+        width: 50%;
+        height: auto;
+        -webkit-transition: -webkit-transform .8s ease-in-out;
+              transition:         transform .8s ease-in-out;
+    }
+
+}
   
